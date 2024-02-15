@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Welcome to Acek Academy - Providing high-quality education since 2000">
+    <meta name="keywords" content="school, education, academics, admissions, contact us">
+    <title>Acek Academy</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <header class="header">
+        <nav>
+            <a href="index.html"><img src="ACEK.gif" alt="Acek Academy"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fas fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT US</a></li>
+                    <li><a href="#">ENROLLMENT INFO</a></li>
+                    <li><a href="gallery.html">GALLERY</a></li>
+                </ul>
+            </div>
+            <i class="fas fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <div class="text-box">
+            <h1>Welcome to Acek Academy</h1>
+            <div class="scrolling-words">
+                <p class="word">INTEGRITY</p>
+                <p class="word">MORALS</p>
+                <p class="word">PASSION</p>
+                <p class="word">INNOVATION</p>
+            </div>
+
+        </div>
+    </header>
+    <section class="campus">
+        <h1>The enrolment process</h1>
+        <p>Service and Excellence</p>
+        <div class="camprow">
+            <div class="mission-col">
+                <h3>ONLINE APPLICATION PROCESS</h3>
+                <p>Grade R-Grade 12<br><br><h4>Step 1</h4><br>Download Application Form<br><br><h4>Step 2</h4><br>Fill in Application Form<br><br><h4>Step 3</h4><br>Upload Application Form<br><br></p>
+                <a href="RegistrationForm.pdf" class="enrollbtn" download>Download Application Form</a>
+            </div>
+            
+            <div class="upload-btn-wrapper">
+                <input type="file" name="myfile" />
+                <button class="btn" id="upload-btn">Upload a file</button>
+            </div>
+            
+            <form action="upload.php" method="post" enctype="multipart/form-data" id="upload-form">
+                <input type="hidden" name="submitted" value="true">
+                <button type="submit" class="btn">Submit</button>
+            </form>            
+    </section>
+    <footer>
+        <div class="footer-content">
+            <div class="footer-section">
+                <img src="ACEK.gif" class="logo">
+                <p> info@acekacademy.com</p>
+                <p>Phone:0138800425</p>
+            </div>
+            <div class="footer-section">
+                <h3>Quick Links</h3>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">ABOUT US</a></li>
+                    <li><a href="application.html">ENROLLMENT INFO</a></li>
+                    <li><a href="gallery.html">GALLERY</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h3>Address</h3>
+                <p><a href="https://maps.app.goo.gl/N7jHxMnHznUJ6x12A" target="_blank">18 William Lynn <br> Street<br> White river<br>South Africa</a></p>
+            </div>
+            <div class="footer-section">
+                <form action="contact_form" method="post">
+                    <h3>CONTACT US</h3>
+                    <label for="name">Your Name:<input type="text" id="name" name="name" required></label>
+                    <label for="email">Your Email:<input type="email" id="email" name="email" required></label>
+                    <label for="message">Message:<textarea id="message" name="message" required></textarea></label>
+                    <input type="submit" value="Send Message">
+                </form>
+            </div>
+        </div>
+        <hr>
+        <div class="social-icons">
+            <a href="https://www.facebook.com/acekacademyza"><i class="fab fa-facebook"></i></a>
+            <a href="https://twitter.com/Acekacademy"><i class="fab fa-twitter"></i></a>
+            <a href="https://www.instagram.com/acekacademy/"><i class="fab fa-instagram"></i></a>
+            <a href="https://www.linkedin.com"><i class="fab fa-linkedin"></i></a>
+            <a href="https://www.youtube.com/@acekacademy362"><i class="fab fa-youtube"></i></a>
+        </div>
+        
+        <div class="copyright">
+            <p>&copy;Acek Academy 2000 | All rights reserved. | <a href="https://ceaser.co.za" target="_blank"> Developed
+                    by Ceaser Tech</a></p>
+        </div>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Welcome to Acek Academy - Providing high-quality education since 2000">
+    <meta name="keywords" content="school, education, academics, admissions, contact us">
+    <title>Acek Academy</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <header class="header">
+        <nav>
+            <a href="index.html"><img src="ACEK.gif" alt="Acek Academy"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fas fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT US</a></li>
+                    <li><a href="#">ENROLLMENT INFO</a></li>
+                    <li><a href="gallery.html">GALLERY</a></li>
+                </ul>
+            </div>
+            <i class="fas fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <div class="text-box">
+            <h1>Welcome to Acek Academy</h1>
+            <div class="scrolling-words">
+                <p class="word">INTEGRITY</p>
+                <p class="word">MORALS</p>
+                <p class="word">PASSION</p>
+                <p class="word">INNOVATION</p>
+            </div>
+            <a href="RegistrationForm.pdf" class="enrollbtn" download>ENROLL NOW</a>
+
+        </div>
+    </header>
+    <section class="mission">
+        <h1>OUR MISSION</h1>
+        <p>Service and Excellence</p>
+        <div class="row">
+            <div class="mission-col">
+                <h3>Integrity</h3>
+                <p>We value honest, dedication to work and we are committed to offer service that represents quality</p>
+            </div>
+            <div class="mission-col">
+                <h3>Morals</h3>
+                <p>We adhere to stringent quality control of standards on matters of morality</p>
+            </div>
+            <div class="mission-col">
+                <h3>Passion</h3>
+                <p>We have passion for people and our students</p>
+            </div>
+            <div class="mission-col">
+                <h3>Innovations</h3>
+                <p>Change is exciting and imperative for growth and development of our students.</p>
+            </div>
+        </div>
+    </section>
+    <div class="container">
+        <section id="about" class="section about-section">
+            <div class="section-content">
+                <h2>About Us</h2>
+                <p>Welcome to Acek Academy! We...</p>
+                <a href="about.html" class="enrollbtn">Read More</a>
+            </div>
+        </section>
+
+        <section id="academics" class="section academics-section">
+            <div class="section-content">
+                <h2>Academics</h2>
+                <p>From grade R to Grade 12...</p>
+                <a href="#" class="enrollbtn">Read More</a>
+            </div>
+        </section>
+
+        <section id="admissions" class="section admissions-section">
+            <div class="section-content">
+                <h2>Admissions</h2>
+                <p>The admission process and requirements...</p>
+                <a href="#" class="enrollbtn">Read More</a>
+            </div>
+        </section>
+    </div>
+    <div class="textbox">
+        <h2>WATCH VIDEOS</h2>
+    </div>    
+    <div class="video-container">
+        <div class="video-wrapper">
+            <video class="video" controls autoplay>
+                <source src="reg.mp4" type="video/mp4">
+            </video>
+            <p class="description">ACEK ACADEMY SCHOOL TRIP</p>
+        </div>
+        <div class="video-wrapper">
+            <video class="video" controls>
+                <source src="alumni.mp4" type="video/mp4">
+            </video>
+            <p class="description">Dr.N MPHUTHI. 2007 ACEK ACADEMY HEAD GIRL</p>
+        </div>
+    </div>
+    <footer>
+        <div class="footer-content">
+            <div class="footer-section">
+                <img src="ACEK.gif" class="logo">
+                <p> info@acekacademy.com</p>
+                <p>Phone:0138800425</p>
+            </div>
+            <div class="footer-section">
+                <h3>Quick Links</h3>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">ABOUT US</a></li>
+                    <li><a href="application.html">ENROLLMENT INFO</a></li>
+                    <li><a href="gallery.html">GALLERY</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h3>Address</h3>
+                <p><a href="https://maps.app.goo.gl/N7jHxMnHznUJ6x12A" target="_blank">18 William Lynn <br> Street<br> White river<br>South Africa</a></p>
+            </div>
+            <div class="footer-section">
+                <form action="contact_form" method="post">
+                    <h3>CONTACT US</h3>
+                    <label for="name">Your Name:<input type="text" id="name" name="name" required></label>
+                    <label for="email">Your Email:<input type="email" id="email" name="email" required></label>
+                    <label for="message">Message:<textarea id="message" name="message" required></textarea></label>
+                    <input type="submit" value="Send Message">
+                </form>
+            </div>
+        </div>
+        <hr>
+        <div class="social-icons">
+            <a href="https://www.facebook.com/acekacademyza"><i class="fab fa-facebook"></i></a>
+            <a href="https://twitter.com/Acekacademy"><i class="fab fa-twitter"></i></a>
+            <a href="https://www.instagram.com/acekacademy/"><i class="fab fa-instagram"></i></a>
+            <a href="https://www.linkedin.com"><i class="fab fa-linkedin"></i></a>
+            <a href="https://www.youtube.com/@acekacademy362"><i class="fab fa-youtube"></i></a>
+        </div>
+        
+        <div class="copyright">
+            <p>&copy;Acek Academy 2000 | All rights reserved. | <a href="https://ceaser.co.za" target="_blank"> Developed
+                    by Ceaser Tech</a></p>
+        </div>
+    </footer>
+</body>
+</html>
